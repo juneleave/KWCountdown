@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C1D45E120CBD463006EA404 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D45E020CBD463006EA404 /* main.m */; };
+		5C1D45E420CBD463006EA404 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D45E320CBD463006EA404 /* AppDelegate.m */; };
+		5C1D45E720CBD463006EA404 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D45E620CBD463006EA404 /* ViewController.m */; };
+		5C1D45EA20CBD463006EA404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D45E820CBD463006EA404 /* Main.storyboard */; };
+		5C1D45EC20CBD463006EA404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D45EB20CBD463006EA404 /* Assets.xcassets */; };
+		5C1D45EF20CBD463006EA404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D45ED20CBD463006EA404 /* LaunchScreen.storyboard */; };
+		5C1D45FA20CBD463006EA404 /* KWCountdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D45F920CBD463006EA404 /* KWCountdownTests.m */; };
+		5C1D460520CBD464006EA404 /* KWCountdownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D460420CBD463006EA404 /* KWCountdownUITests.m */; };
+		5C1D461420CBDC9A006EA404 /* KWCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D461320CBDC9A006EA404 /* KWCountDown.m */; };
+		5C1D461720CBDE03006EA404 /* KWCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D461620CBDE03006EA404 /* KWCountDownView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C1D45F620CBD463006EA404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1D45D420CBD463006EA404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1D45DB20CBD463006EA404;
+			remoteInfo = KWCountdown;
+		};
+		5C1D460120CBD463006EA404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1D45D420CBD463006EA404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1D45DB20CBD463006EA404;
+			remoteInfo = KWCountdown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C1D45DC20CBD463006EA404 /* KWCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1D45E020CBD463006EA404 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C1D45E220CBD463006EA404 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C1D45E320CBD463006EA404 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C1D45E520CBD463006EA404 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C1D45E620CBD463006EA404 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C1D45E920CBD463006EA404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C1D45EB20CBD463006EA404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C1D45EE20CBD463006EA404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C1D45F020CBD463006EA404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1D45F520CBD463006EA404 /* KWCountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWCountdownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1D45F920CBD463006EA404 /* KWCountdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWCountdownTests.m; sourceTree = "<group>"; };
+		5C1D45FB20CBD463006EA404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1D460020CBD463006EA404 /* KWCountdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWCountdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1D460420CBD463006EA404 /* KWCountdownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWCountdownUITests.m; sourceTree = "<group>"; };
+		5C1D460620CBD464006EA404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1D461220CBDC9A006EA404 /* KWCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWCountDown.h; sourceTree = "<group>"; };
+		5C1D461320CBDC9A006EA404 /* KWCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWCountDown.m; sourceTree = "<group>"; };
+		5C1D461520CBDE03006EA404 /* KWCountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWCountDownView.h; sourceTree = "<group>"; };
+		5C1D461620CBDE03006EA404 /* KWCountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWCountDownView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C1D45D920CBD463006EA404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1D45F220CBD463006EA404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1D45FD20CBD463006EA404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C1D45D320CBD463006EA404 = {
+			isa = PBXGroup;
+			children = (
+				5C1D45DE20CBD463006EA404 /* KWCountdown */,
+				5C1D45F820CBD463006EA404 /* KWCountdownTests */,
+				5C1D460320CBD463006EA404 /* KWCountdownUITests */,
+				5C1D45DD20CBD463006EA404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C1D45DD20CBD463006EA404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D45DC20CBD463006EA404 /* KWCountdown.app */,
+				5C1D45F520CBD463006EA404 /* KWCountdownTests.xctest */,
+				5C1D460020CBD463006EA404 /* KWCountdownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C1D45DE20CBD463006EA404 /* KWCountdown */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D45E220CBD463006EA404 /* AppDelegate.h */,
+				5C1D45E320CBD463006EA404 /* AppDelegate.m */,
+				5C1D45E520CBD463006EA404 /* ViewController.h */,
+				5C1D45E620CBD463006EA404 /* ViewController.m */,
+				5C1D461220CBDC9A006EA404 /* KWCountDown.h */,
+				5C1D461320CBDC9A006EA404 /* KWCountDown.m */,
+				5C1D461520CBDE03006EA404 /* KWCountDownView.h */,
+				5C1D461620CBDE03006EA404 /* KWCountDownView.m */,
+				5C1D45E820CBD463006EA404 /* Main.storyboard */,
+				5C1D45EB20CBD463006EA404 /* Assets.xcassets */,
+				5C1D45ED20CBD463006EA404 /* LaunchScreen.storyboard */,
+				5C1D45F020CBD463006EA404 /* Info.plist */,
+				5C1D45DF20CBD463006EA404 /* Supporting Files */,
+			);
+			path = KWCountdown;
+			sourceTree = "<group>";
+		};
+		5C1D45DF20CBD463006EA404 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D45E020CBD463006EA404 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C1D45F820CBD463006EA404 /* KWCountdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D45F920CBD463006EA404 /* KWCountdownTests.m */,
+				5C1D45FB20CBD463006EA404 /* Info.plist */,
+			);
+			path = KWCountdownTests;
+			sourceTree = "<group>";
+		};
+		5C1D460320CBD463006EA404 /* KWCountdownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D460420CBD463006EA404 /* KWCountdownUITests.m */,
+				5C1D460620CBD464006EA404 /* Info.plist */,
+			);
+			path = KWCountdownUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C1D45DB20CBD463006EA404 /* KWCountdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1D460920CBD464006EA404 /* Build configuration list for PBXNativeTarget "KWCountdown" */;
+			buildPhases = (
+				5C1D45D820CBD463006EA404 /* Sources */,
+				5C1D45D920CBD463006EA404 /* Frameworks */,
+				5C1D45DA20CBD463006EA404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KWCountdown;
+			productName = KWCountdown;
+			productReference = 5C1D45DC20CBD463006EA404 /* KWCountdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C1D45F420CBD463006EA404 /* KWCountdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1D460C20CBD464006EA404 /* Build configuration list for PBXNativeTarget "KWCountdownTests" */;
+			buildPhases = (
+				5C1D45F120CBD463006EA404 /* Sources */,
+				5C1D45F220CBD463006EA404 /* Frameworks */,
+				5C1D45F320CBD463006EA404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1D45F720CBD463006EA404 /* PBXTargetDependency */,
+			);
+			name = KWCountdownTests;
+			productName = KWCountdownTests;
+			productReference = 5C1D45F520CBD463006EA404 /* KWCountdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C1D45FF20CBD463006EA404 /* KWCountdownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1D460F20CBD464006EA404 /* Build configuration list for PBXNativeTarget "KWCountdownUITests" */;
+			buildPhases = (
+				5C1D45FC20CBD463006EA404 /* Sources */,
+				5C1D45FD20CBD463006EA404 /* Frameworks */,
+				5C1D45FE20CBD463006EA404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1D460220CBD463006EA404 /* PBXTargetDependency */,
+			);
+			name = KWCountdownUITests;
+			productName = KWCountdownUITests;
+			productReference = 5C1D460020CBD463006EA404 /* KWCountdownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C1D45D420CBD463006EA404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KW;
+				TargetAttributes = {
+					5C1D45DB20CBD463006EA404 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 47DKGWL9UE;
+						ProvisioningStyle = Automatic;
+					};
+					5C1D45F420CBD463006EA404 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 47DKGWL9UE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C1D45DB20CBD463006EA404;
+					};
+					5C1D45FF20CBD463006EA404 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 47DKGWL9UE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C1D45DB20CBD463006EA404;
+					};
+				};
+			};
+			buildConfigurationList = 5C1D45D720CBD463006EA404 /* Build configuration list for PBXProject "KWCountdown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C1D45D320CBD463006EA404;
+			productRefGroup = 5C1D45DD20CBD463006EA404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C1D45DB20CBD463006EA404 /* KWCountdown */,
+				5C1D45F420CBD463006EA404 /* KWCountdownTests */,
+				5C1D45FF20CBD463006EA404 /* KWCountdownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C1D45DA20CBD463006EA404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1D45EF20CBD463006EA404 /* LaunchScreen.storyboard in Resources */,
+				5C1D45EC20CBD463006EA404 /* Assets.xcassets in Resources */,
+				5C1D45EA20CBD463006EA404 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1D45F320CBD463006EA404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1D45FE20CBD463006EA404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C1D45D820CBD463006EA404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1D45E720CBD463006EA404 /* ViewController.m in Sources */,
+				5C1D45E420CBD463006EA404 /* AppDelegate.m in Sources */,
+				5C1D45E120CBD463006EA404 /* main.m in Sources */,
+				5C1D461720CBDE03006EA404 /* KWCountDownView.m in Sources */,
+				5C1D461420CBDC9A006EA404 /* KWCountDown.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1D45F120CBD463006EA404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1D45FA20CBD463006EA404 /* KWCountdownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1D45FC20CBD463006EA404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1D460520CBD464006EA404 /* KWCountdownUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C1D45F720CBD463006EA404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1D45DB20CBD463006EA404 /* KWCountdown */;
+			targetProxy = 5C1D45F620CBD463006EA404 /* PBXContainerItemProxy */;
+		};
+		5C1D460220CBD463006EA404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1D45DB20CBD463006EA404 /* KWCountdown */;
+			targetProxy = 5C1D460120CBD463006EA404 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C1D45E820CBD463006EA404 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1D45E920CBD463006EA404 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C1D45ED20CBD463006EA404 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1D45EE20CBD463006EA404 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C1D460720CBD464006EA404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C1D460820CBD464006EA404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C1D460A20CBD464006EA404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KWCountdown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KW.KWCountdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C1D460B20CBD464006EA404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KWCountdown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KW.KWCountdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C1D460D20CBD464006EA404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KWCountdownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KW.KWCountdownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWCountdown.app/KWCountdown";
+			};
+			name = Debug;
+		};
+		5C1D460E20CBD464006EA404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KWCountdownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KW.KWCountdownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWCountdown.app/KWCountdown";
+			};
+			name = Release;
+		};
+		5C1D461020CBD464006EA404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KWCountdownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KW.KWCountdownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KWCountdown;
+			};
+			name = Debug;
+		};
+		5C1D461120CBD464006EA404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 47DKGWL9UE;
+				INFOPLIST_FILE = KWCountdownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KW.KWCountdownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KWCountdown;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C1D45D720CBD463006EA404 /* Build configuration list for PBXProject "KWCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1D460720CBD464006EA404 /* Debug */,
+				5C1D460820CBD464006EA404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1D460920CBD464006EA404 /* Build configuration list for PBXNativeTarget "KWCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1D460A20CBD464006EA404 /* Debug */,
+				5C1D460B20CBD464006EA404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C1D460C20CBD464006EA404 /* Build configuration list for PBXNativeTarget "KWCountdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1D460D20CBD464006EA404 /* Debug */,
+				5C1D460E20CBD464006EA404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C1D460F20CBD464006EA404 /* Build configuration list for PBXNativeTarget "KWCountdownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1D461020CBD464006EA404 /* Debug */,
+				5C1D461120CBD464006EA404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C1D45D420CBD463006EA404 /* Project object */;
+}
